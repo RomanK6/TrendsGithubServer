@@ -1,0 +1,23 @@
+{
+  "name": "testtrendgithub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "trending-github": "^2.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
